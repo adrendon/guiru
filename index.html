@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="css/jquery.jscrollpane.css" type="text/css" media="all" /> 
         <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/jquery.qtip.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="preview/jquery.slidePanel.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 
         <!-- jQuery -->
@@ -48,23 +47,6 @@
         <!-- Modernizr -->
         <script src="js/modernizr.custom.48780.js" type="text/javascript"></script> 
         
-        <!-- Demo Preview -->
-        <script src="preview/jquery.slidePanel.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
-	    $(document).ready(function(){		
-		   $('#style_switcher_panel').slidePanel({
-			   triggerName: '#trigger',
-			   triggerTopPos: '100px',
-			   panelTopPos: '100px'
-		   });
-		
-		   $('.precy').click(function (){
-			   var bg = $(this).attr('title');
-			   $('body').css("background-image",bg)
-		   });		
-	    });
-        </script>
-        
         <!--[if lt IE 7]>
         <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
         <![endif]-->
@@ -92,36 +74,7 @@
 			</style> 
         </noscript> 
     </head>
-    <body>
-    
-    <!-- preview -->
-	<a href="#" id="trigger" class="trigger left"></a>
-	<div id="style_switcher_panel" class="panel left">
-    
-        <h4>Color Schemes</h4>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_green/index.html"><div class="preview" id="color1">&nbsp;</div></a>
-    	<a href="index.html"><div class="preview" id="color2">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_violet/index.html"><div class="preview" id="color3">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_turquoiseblue/index.html"><div class="preview" id="color4">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_purple/index.html"><div class="preview" id="color5">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_red/index.html"><div class="preview" id="color6">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_orange/index.html"><div class="preview" id="color7">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_gray/index.html"><div class="preview" id="color8">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_yellow/index.html"><div class="preview" id="color9">&nbsp;</div></a>
-        <a href="http://lmtheme.ru/demo/motion/motion_vcard_template_peach/index.html"><div class="preview" id="color10">&nbsp;</div></a>
-        <div class="row"></div>
-        
-        <h4>Backgrounds</h4>
-    	<a class="precy" href="#" title="url(images/body_backrounds/body_bg_1.png)"><div class="preview" id="bg1">&nbsp;</div></a>
-        <a class="precy" href="#" title="url(images/body_backrounds/body_bg_2.png)"><div class="preview" id="bg2">&nbsp;</div></a>
-        <a class="precy" href="#" title="url(images/body_backrounds/body_bg_3.png)"><div class="preview" id="bg3">&nbsp;</div></a>
-  		<a class="precy" href="#" title="url(images/body_backrounds/body_bg_4.png)"><div class="preview" id="bg4">&nbsp;</div></a>
-  		<a class="precy" href="#" title="url(images/body_backrounds/body_bg_5.png)"><div class="preview" id="bg5">&nbsp;</div></a>
-  		<a class="precy" href="#" title="url(images/body_backrounds/body_bg_6.png)"><div class="preview" id="bg6">&nbsp;</div></a>
-        <a class="precy" href="#" title="url(images/body_backrounds/body_bg_7.png)"><div class="preview" id="bg7">&nbsp;</div></a>
-        <a class="precy" href="#" title="url(images/body_backrounds/body_bg_8.png)"><div class="preview" id="bg8">&nbsp;</div></a>  
-           
-    </div>    
+    <body>    
     
         <div class="container">
 	    <header>
