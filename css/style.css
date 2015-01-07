@@ -543,9 +543,9 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 9. Portfolio Panel 
 ============================================================================= */
 .portfolio {
-	width:100%;
+	width:92%;
 	/*margin-left:5px;*/
-	padding: 0 40px;
+	padding: 0 4%;
 	overflow: hidden;
 }
 /* Portfolio Items */
