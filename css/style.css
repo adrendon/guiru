@@ -423,12 +423,29 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 }
 .skillsInfo em { 
 	position:relative; 
-	margin-bottom:2px;
+	margin-bottom: 5px;
 	font-size:13px;
 	color:#292929;
 	font-family:"Oswald", Arial, Helvetica, sans-serif;
 	font-weight:400;
 	font-style:normal;
+	/* border-bottom: solid 3px #64C6DC; */  
+	/* width: 40%; */  display: block;
+	position: relative;
+	padding-left: 12px;
+}
+.skillsInfo em:before {
+    position: absolute;
+	
+    content: '';
+    background: #64C6DC;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
 }
 .skill-container {
 	background-color:transparent;
