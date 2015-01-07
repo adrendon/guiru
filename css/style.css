@@ -425,7 +425,7 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	position:relative; 
 	margin-bottom: 5px;
 	font-size:13px;
-	color:#292929;
+	/*color:#292929;*/
 	font-family:"Oswald", Arial, Helvetica, sans-serif;
 	font-weight:400;
 	font-style:normal;
