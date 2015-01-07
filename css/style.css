@@ -220,7 +220,6 @@ nav a, nav li {
 
 #menuInt li a {
 	display: block;
-	text-shadow: 0 -1px #1d1d1d;
 	text-align: center;
 	background: #484848;
 	background-image: linear-gradient(to bottom, #484848, #232323);
@@ -231,7 +230,7 @@ nav a, nav li {
 	border-radius: 20px;
 }
 #menuInt li a:hover, #menuInt li a:focus {
-		color: #16c3eb;
+		color: #7BE6FF;
 }		
 #menuInt li a { outline: none; }
 /* ============================================================================= 
