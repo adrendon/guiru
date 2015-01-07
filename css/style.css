@@ -173,11 +173,6 @@ nav li:hover {
 	/* border-bottom: 	    2px solid #cfd0ca; */
 	/* border-radius:      60px 7px 60px 7px; */
 }
-nav li.active {
-    border-top: 	    2px solid #64C6DC;
-	border-bottom: 	    2px solid #64C6DC;
-	border-radius:      60px 7px 60px 7px;
-}
 nav a {
 	display:				block;
 	height:					100%;
@@ -193,8 +188,8 @@ nav a {
 nav a:hover a {
 	color:#64C6DC;
 }	
-#nav .active a {
-	color:#292929;
+#menuInt .active a {
+	color:#6BDEF9;
 	outline: 0;
 }		
 nav a, nav li {	
@@ -217,7 +212,6 @@ nav a, nav li {
 #menuInt li:first-child {
 		margin-left: 19px;
 }
-
 #menuInt li a {
 	display: block;
 	text-align: center;

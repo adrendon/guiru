@@ -50,8 +50,8 @@ jQuery(document).ready(function(){
     // --------------------------------------------------------------------------
 	// Main Menu ----------------------------------------------------------------
 	// --------------------------------------------------------------------------
-    $('#nav li > a').click(function() {
-    $('#nav li').removeClass();
+    $('#menuInt li > a').click(function() {
+    $('#menuInt li').removeClass();
     $(this).parent().addClass("active");
     });
    
