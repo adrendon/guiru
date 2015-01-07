@@ -301,6 +301,7 @@ nav a, nav li {
 }
 .general_info {
 	margin-top:10px;
+	text-align: justify;
 }
 .general_info p {
 	margin:0;
@@ -543,8 +544,9 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 ============================================================================= */
 .portfolio {
 	width:100%;
-	padding:0;
-	margin-left:5px;
+	/*margin-left:5px;*/
+	padding: 0 40px;
+	overflow: hidden;
 }
 /* Portfolio Items */
 .portfolio li { 
@@ -558,6 +560,8 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 }
 .portfolio h3 { 
     color:#64C6DC; 
+    text-transform: uppercase;
+    text-align: center;
 }
 .portfolio img {  
     vertical-align: bottom;
@@ -621,7 +625,7 @@ ul.filter li a {
     z-index: 1;
     position: absolute;
 	padding:0 10px;
-	margin-top:-95% !important;
+	margin-top:-60% !important;
 }
 .rollover:hover .back, 
 .rollover:focus .back {
