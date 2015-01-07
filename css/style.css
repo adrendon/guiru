@@ -151,7 +151,7 @@ nav ul {
 	list-style-type: 		none;
 	margin:					0 auto;
 	text-align: 			center;
-	width: 68%;
+	/* width: 68%; */
 	padding:				0;
 	-webkit-transition: 	all .25s ease-in;
 	-moz-transition:		all .25s ease-in;
@@ -205,15 +205,16 @@ nav a, nav li {
 }
 
 #menuInt { 
-	height: 54px; 
-	padding: 16px 0; margin: 0 auto;
+	height: 32px; 
+	padding: 12px 0; margin: 0 auto;
 	background: linear-gradient(to bottom, #313131 0%,#191919 100%);
 	border-radius: 80px;
+	width: 52%;
 }
 
 	#menuInt li {
 		list-style: none; float: left; 
-		margin: 0 2px;
+		margin: 0 5px;
 	}
 		#menuInt li:first-child {
 			margin-left: 19px;
@@ -224,10 +225,10 @@ nav a, nav li {
 		text-shadow: 0 -1px #1d1d1d; 
 		text-align: center;
 		background: #484848;
-		background-image: linear-gradient(to bottom, #484848, #242424);            
+		background-image: linear-gradient(to bottom, #484848, #232323);            
 		border-radius: 25px;
 		color: #ffffff;        
-		padding: 15px 35px;    
+		padding: 5px 18px;    
 		text-decoration: none;
 	}
 		#menuInt li a:hover, #menuInt li a:focus {
