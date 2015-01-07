@@ -151,7 +151,7 @@ nav ul {
 	list-style-type: 		none;
 	margin:					0 auto;
 	text-align: 			center;
-	width:					50%;
+	width: 68%;
 	padding:				0;
 	-webkit-transition: 	all .25s ease-in;
 	-moz-transition:		all .25s ease-in;
@@ -159,19 +159,19 @@ nav ul {
 	transition: 			all .25s ease-in;
 }
 nav li {
-	border-top: 			2px solid #eee;
-	border-bottom: 			2px solid #eee;
-	float:					left;
-	display:				block;
-	margin:					0;
-	text-align: 			center;
-	width:					19%;
-	padding:				0;
+	/* border-top: 			2px solid #eee; */
+	/* border-bottom: 			2px solid #eee; */
+	/* float:					left; */
+	/* display:				block; */
+	/* margin:					0; */
+	/* text-align: 			center; */
+	/* width:					19%; */
+	/* padding:				0; */
 }
 nav li:hover {
-	border-top: 	    2px solid #cfd0ca;
-	border-bottom: 	    2px solid #cfd0ca;
-	border-radius:      60px 7px 60px 7px;
+	/* border-top: 	    2px solid #cfd0ca; */
+	/* border-bottom: 	    2px solid #cfd0ca; */
+	/* border-radius:      60px 7px 60px 7px; */
 }
 nav li.active {
     border-top: 	    2px solid #64C6DC;
@@ -203,6 +203,42 @@ nav a, nav li {
 	-o-transition: 			all .25s ease-in-out;
 	transition: 			all .25s ease-in-out;
 }
+
+#menuInt { 
+	height: 54px; 
+	padding: 16px 0; margin: 0 auto;
+	background: linear-gradient(to bottom, #313131 0%,#191919 100%);
+	border-radius: 80px;
+}
+
+	#menuInt li {
+		list-style: none; float: left; 
+		margin: 0 2px;
+	}
+		#menuInt li:first-child {
+			margin-left: 19px;
+		}
+	
+	#menuInt li a {
+		display: block;   
+		text-shadow: 0 -1px #1d1d1d; 
+		text-align: center;
+		background: #484848;
+		background-image: linear-gradient(to bottom, #484848, #242424);            
+		border-radius: 25px;
+		color: #ffffff;        
+		padding: 15px 35px;    
+		text-decoration: none;
+	}
+		#menuInt li a:hover, #menuInt li a:focus {
+			color: #dcdcdc;
+		}
+		#menuInt li a:active {
+			background: url(..images/btn.png) bottom no-repeat;
+			color: #767676;
+		}
+		
+#menuInt li a { outline: none; }
 
 /* ============================================================================= 
 4. Mobile Dropdown Menu
