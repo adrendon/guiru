@@ -227,7 +227,7 @@ nav a, nav li {
 	color: #ffffff;
 	padding: 5px 18px;
 	text-decoration: none;
-	border-bottom: 1px solid #16c3eb;
+	border-bottom: 2px solid #16c3eb;
 	border-radius: 20px;
 }
 #menuInt li a:hover, #menuInt li a:focus {
