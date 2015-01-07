@@ -1,2 +1,2 @@
-guiru
+adrendon.github.io/guiru
 =====
