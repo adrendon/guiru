@@ -623,10 +623,14 @@ ul.filter li a {
     background: #fff;
 }
 .back {
-    z-index: 1;
-    position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 	padding:0 10px;
-	margin-top:-60% !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
 }
 .rollover:hover .back, 
 .rollover:focus .back {
@@ -719,6 +723,14 @@ ul.filter li a {
       -ms-transform: rotateY(180deg) translate3d(0,0,60px)  scale(1,1);
        -o-transform: rotateY(180deg) translate3d(0,0,60px)  scale(1,1);
           transform: rotateY(180deg) translate3d(0,0,60px)  scale(1,1);
+}
+.back-wrap {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 40%;
 }
 
 /* ============================================================================= 
